@@ -12,29 +12,37 @@
 <body>
     <header>
         <img src="./icons/currency-interface-logo.png" alt="Currency-interface-logo">
-        <label for="select">Select your purchase currency:</label>
-        <select name="coin" id="coin-selector">
-            <option value="">Select</option>
-            <option value="AmDollar">American dollar</option>
-            <option value="CaDollar">Canadian dollar</option>
-            <option value="euro">Euro</option>
-            <option value="frank switzerland">Frank switzerland</option>
-            <option value="Argentinian peso">Argentinian peso</option>
-        </select>
     </header>
+    <label for="select" id="coinSelectorLabel">Select your purchase currency:</label>
+    <select name="coin" id="coin-selector">
+        <option value="">Select</option>
+        <option value="AmDollar">American dollar</option>
+        <option value="CaDollar">Canadian dollar</option>
+        <option value="euro">Euro</option>
+        <option value="frank switzerland">Frank switzerland</option>
+        <option value="Argentinian peso">Argentinian peso</option>
+        <option value="Reais">Reais</option>
+    </select>
     <hr>
     <div class="currencyType">
+
         <div class="currencyCards" style="background-color: #5BA778;">
             <img src="./images/US_one_dollar_bill,_obverse,_series_2009.jpg" alt="dollar bill">
+            <h4 class="currencyName">Dollar ($)</h4>
             <div class="cardContent">
-                <h4 class="currencyName">Dollar ($)</h4>
+                <div class="prices">
+                    <h3>4.84</h3>
+                    <img src="./images/icon-brasil-circular-48.png" alt="Country Icon">
+                    <h4 class="purchaseCurrency">BRL</h4>
+                </div>
+                <button>Details</button>
             </div>
         </div>
 
         <div class="currencyCards" style="background-color: #174195;">
             <img src="./images/euro-symbol-with-blue-background-and-stars-stock-vector-31616530.jpg" alt="dollar bill">
+            <h4 class="currencyName">Euro (€)</h4>
             <div class="cardContent">
-                <h4 class="currencyName">Euro (€)</h4>
                 <div class="prices">
                     <h3>5.34</h3>
                     <img src="./images/icon-brasil-circular-48.png" alt="Country Icon">
