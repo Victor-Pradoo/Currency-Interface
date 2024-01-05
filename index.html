@@ -15,13 +15,17 @@
     </header>
     <label for="select" id="coinSelectorLabel">Select your purchase currency:</label>
     <select name="coin" id="coin-selector">
-        <option value="">Select</option>
-        <option value="AmDollar">American dollar</option>
-        <option value="CaDollar">Canadian dollar</option>
-        <option value="euro">Euro</option>
-        <option value="frank switzerland">Frank switzerland</option>
-        <option value="Argentinian peso">Argentinian peso</option>
-        <option value="Reais">Reais</option>
+        <option value="" selected>Select</option>
+        <option value="USD">USD</option>
+        <option value="CAD">CAD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="ARS">ARS</option>
+        <option value="BRL">BRL</option>
+        <option value="JPY">JPY</option>
+        <option value="CNY">CNY</option>
+        <option value="AUD">AUD</option>
+        <option value="CHF">CHF</option>
     </select>
     <hr>
 
@@ -33,7 +37,7 @@
             <h4 class="currencyName">Dollar (USD)</h4>
             <div class="cardContent">
                 <div class="prices">
-                    <h3>4.84</h3>
+                    <h3 class="price">4.84</h3>
                     <img src="./images/icon-brasil-circular-48.png" alt="Country Icon">
                     <h4 class="purchaseCurrency">BRL</h4>
                 </div>
@@ -46,7 +50,7 @@
             <h4 class="currencyName">Euro (EUR)</h4>
             <div class="cardContent">
                 <div class="prices">
-                    <h3>5.34</h3>
+                    <h3 class="price">5.34</h3>
                     <img src="./images/icon-brasil-circular-48.png" alt="Country Icon">
                     <h4 class="purchaseCurrency">BRL</h4>
                 </div>
@@ -56,9 +60,9 @@
 
         <div class="currencyCards" style="background-color: #01247d;">
             <img src="./images/england-flag.jpg" alt="dollar bill">
-            <h4 class="currencyName" >Pound sterling (GBP)</h4>
+            <h4 class="currencyName" style="margin-bottom: 0.4em;margin-top: 0.4em;" >Pound sterling (GBP)</h4>
             <div class="cardContent">
-                <div class="prices">
+                <div class="prices" style="margin-top: 1.5%;">
                     <h3>5.34</h3>
                     <img src="./images/icon-brasil-circular-48.png" alt="Country Icon">
                     <h4 class="purchaseCurrency">BRL</h4>
@@ -71,7 +75,7 @@
             <img src="./images/Flag_of_Argentina.svg.png" alt="dollar bill">
             <h4 class="currencyName" style="margin-bottom: 0.4em;margin-top: 0.4em;">Argentinian peso (ARS)</h4>
             <div class="cardContent">
-                <div class="prices" style="margin-top: 0em;">
+                <div class="prices" style="margin-top: 1.5%">
                     <h3>5.34</h3>
                     <img src="./images/icon-brasil-circular-48.png" alt="Country Icon">
                     <h4 class="purchaseCurrency">BRL</h4>
@@ -85,7 +89,7 @@
             <h4 class="currencyName" style="color: black;">Yen (JPY)</h4>
             <div class="cardContent">
                 <div class="prices">
-                    <h3>5.34</h3>
+                    <h3 class="price">5.34</h3>
                     <img src="./images/icon-brasil-circular-48.png" alt="Country Icon">
                     <h4 class="purchaseCurrency">BRL</h4>
                 </div>
@@ -98,7 +102,7 @@
             <h4 class="currencyName">Yuan (CNY)</h4>
             <div class="cardContent">
                 <div class="prices">
-                    <h3>5.34</h3>
+                    <h3 class="price">5.34</h3>
                     <img src="./images/icon-brasil-circular-48.png" alt="Country Icon">
                     <h4 class="purchaseCurrency">BRL</h4>
                 </div>
@@ -111,7 +115,7 @@
             <h4 class="currencyName">Canadian dollar (CAD)</h4>
             <div class="cardContent">
                 <div class="prices">
-                    <h3>5.34</h3>
+                    <h3 class="price">5.34</h3>
                     <img src="./images/icon-brasil-circular-48.png" alt="Country Icon">
                     <h4 class="purchaseCurrency">BRL</h4>
                 </div>
@@ -124,7 +128,7 @@
             <h4 class="currencyName">Australian dollar (AUD)</h4>
             <div class="cardContent">
                 <div class="prices">
-                    <h3>5.34</h3>
+                    <h3 class="price">5.34</h3>
                     <img src="./images/icon-brasil-circular-48.png" alt="Country Icon">
                     <h4 class="purchaseCurrency">BRL</h4>
                 </div>
@@ -137,7 +141,7 @@
             <h4 class="currencyName">Swiss franc (CHF)</h4>
             <div class="cardContent">
                 <div class="prices">
-                    <h3>5.34</h3>
+                    <h3 class="price">5.34</h3>
                     <img src="./images/icon-brasil-circular-48.png" alt="Country Icon">
                     <h4 class="purchaseCurrency">BRL</h4>
                 </div>
@@ -150,7 +154,7 @@
             <h4 class="currencyName">Reais (BRL)</h4>
             <div class="cardContent">
                 <div class="prices">
-                    <h3>1.00</h3>
+                    <h3 class="price">1.00</h3>
                     <img src="./images/icon-brasil-circular-48.png" alt="Country Icon">
                     <h4 class="purchaseCurrency">BRL</h4>
                 </div>
@@ -159,5 +163,6 @@
         </div>
 
     </div>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
